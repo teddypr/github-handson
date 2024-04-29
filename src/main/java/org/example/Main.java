@@ -24,21 +24,17 @@ public class Main extends Throwable {
             System.out.println("出席番号：" + number + "   " + "自己紹介：" + value);
         }
 
-
         Scanner scanner = new Scanner(System.in);
         System.out.println("出席番号を入力してください:");
 
-        try {
-            Double.parseDouble(java.lang.String.valueOf(!scanner.hasNextInt()));
-            System.out.println(!scanner.hasNext() + "：この文字列は数字です");
-
-        } catch (NumberFormatException e) {
+        //inputmismatchexceptionが発生したら、入力が数値でない可能性があります。
+        // 例外処理を追加して、入力が数値でない場合に再入力を促す
+        if (!scanner.hasNextInt()) {
             throw new IllegalArgumentException("出席番号は数字で入力してください");
         }
 
         int menberId = scanner.nextInt();
         scanner.close();
-
 
         //メンバーIDに対するメンバー情報を取得
         String memberName = momocloMap.get(menberId);
@@ -48,7 +44,5 @@ public class Main extends Throwable {
             System.out.println("該当するメンバーはいません");
         }
 
-
     }
 }
-

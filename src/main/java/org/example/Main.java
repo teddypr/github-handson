@@ -1,6 +1,7 @@
 package org.example;
 
 import java.util.HashMap;
+import java.util.Objects;
 import java.util.Scanner;
 
 public class Main extends Throwable {
@@ -38,7 +39,9 @@ public class Main extends Throwable {
 
         //メンバーIDに対するメンバー情報を取得
         String memberName = momocloMap.get(menberId);
-        if (memberName != null) {
+        String b = null;
+        
+        if (Objects.nonNull(memberName)) {
             System.out.println("メンバー名" + memberName);
         } else {
             System.out.println("該当するメンバーはいません");

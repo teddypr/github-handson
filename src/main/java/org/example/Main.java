@@ -20,7 +20,7 @@ public class Main extends Throwable {
         momocloMap.put(4, "高木れに: ももクロの鋼少女");
 
         //Mapの値を取り出して表示
-        for (var number : momocloMap.keySet()) {
+        for (var number : momocloMap.entrySet()) {
             var value = momocloMap.get(number);
             System.out.println("出席番号：" + number + "   " + "自己紹介：" + value);
         }

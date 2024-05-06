@@ -95,7 +95,8 @@ Javaコースの課題をここに出します。
     「相手が欲しがってたファイルの中身」が書かれている場所。
 
 
-![image](![HTTPレスポンス](https://github.com/teddypr/github-handson/assets/167724830/94177e96-2467-40bc-847b-8fba6c4a3f32))
+(![HTTPレスポンス](https://github.com/teddypr/github-handson/assets/167724830/91ce790a-e783-4116-bde8-d5c95161ab92)
+
 
 <br>
 

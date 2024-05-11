@@ -113,13 +113,11 @@ RaiseTech(Javaコース)の課題をここに出します。
 (![HTTPレスポンス](https://github.com/teddypr/github-handson/assets/167724830/91ce790a-e783-4116-bde8-d5c95161ab92)
 <br>
 
-***
-
 #### JSONとは何か
     JavaScript Object Notationの略。
     PFC4627が規定するデータ記述言語。JavaScriptの記法でデータを記述できる。
 
-    操作の結果は前述した`HTTPレスポンス`と`JSON`で返される。
+    操作の結果は前述したHTTPレスポンスとJSONで返される。
     XMLに比べるとデータがシンプルであり、Ajax通信におけるデータフォーマットとして活用されている。
 
 `JSONを使用したデータ表現`</br>
